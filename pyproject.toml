@@ -1,0 +1,12 @@
+[project]
+name = "uv-cache-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jax>=0.4.38",
+    "pillow>=11.0.0",
+    "tensorflow>=2.18.0",
+    "torch>=2.5.1",
+]
