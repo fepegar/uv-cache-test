@@ -972,6 +972,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "jax" },
+    { name = "numpy" },
     { name = "pillow" },
     { name = "tensorflow" },
     { name = "torch" },
@@ -980,6 +981,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "jax", specifier = ">=0.4.38" },
+    { name = "numpy", specifier = ">=2.0.2" },
     { name = "pillow", specifier = ">=11.0.0" },
     { name = "tensorflow", specifier = ">=2.18.0" },
     { name = "torch", specifier = ">=2.5.1" },
